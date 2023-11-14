@@ -1,4 +1,3 @@
-// import style from '@/components/Button/btn.module.css'
 
 interface IProps{
     text: string
