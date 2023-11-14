@@ -1,4 +1,4 @@
-
+import style from '@/components/Button/button.module.css'
 interface IProps{
     text: string
 }
@@ -6,7 +6,7 @@ interface IProps{
 export default function Button({text}: IProps) {
     return (
         <div>
-            <button style={{height:'100px', width: '300px', backgroundColor:'green'}}>{text}</button>
+            <button className={style.btnStyle}>{text}</button>
         </div>
     )
 }

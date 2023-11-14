@@ -1,0 +1,17 @@
+
+
+.btnStyle{
+    height: 100px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+
+}
+.btnStyle:hover{
+    border-radius: 5px;
+    background-color: aqua;
+    color: blueviolet;
+    transition: 1s;
+}
