@@ -1,4 +1,4 @@
-import style from './button.module.css'
+import style from '@/components/Button/button.module.css'
 interface IProps{
     text: string
 }
