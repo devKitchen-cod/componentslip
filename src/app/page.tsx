@@ -39,9 +39,9 @@ export default function Home() {
           priority
         />
       </div>
-      {/* <div>
+      <div>
         <Button text="gbhnj"/>
-      </div> */}
+      </div>
 
       <div className={styles.grid}>
         <a
